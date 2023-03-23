@@ -1,0 +1,85 @@
+button, .button{
+  display: block;
+  font-size: 14px;
+  text-transform: uppercase;
+  /* margin-top: 10px; */
+  padding: 5px 10px;
+  text-align: center;
+  outline: none;
+  border-radius: 3px;
+  border: 0px solid transparent;
+  color: #333!important;
+  background-color: rgb(3, 234, 191);
+  width: calc(100%);
+  height: 40px;
+  line-height: 30px;
+  cursor: pointer;
+}
+.delete-btn{
+  background-color: #f33;
+}
+.register-btn, .login-btn{
+  cursor: pointer;
+  background-color: orangered;
+}
+.register-btn{
+  background-color: rgb(247, 247, 29); ;
+  color: #333!important;
+}
+.login-btn{
+  background-color: rgb(0, 192, 0);
+  color: white!important;
+}
+.search-btn{
+  cursor: pointer;
+  width: 20%; 
+  height:45px; 
+  background: rgb(247, 247, 29); 
+  color: #0d1117; 
+  font-size: 16px; 
+  line-height: 3px; 
+  border-top-right-radius: 3px; 
+  border-bottom-right-radius: 3px; 
+  border: 0px solid transparent;
+  outline: none;
+}
+.search-home-link{
+  margin: 20px 0;
+  border: 1px dashed white;
+  color: white;
+  padding: 8px 8px;
+  display: inline-block;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+@-moz-document url-prefix() {
+ .search-home-link {
+    padding-top: 12px;
+  }
+}
+.logout-btn{
+  background-color: #f33;
+  /* background-color: #444; */
+}
+.home-btn{
+  background-color: #2f90f9;
+  color: white!important;
+}
+.back-btn{
+  background-color: #FF7876;
+  color: white!important;
+}
+.edit-back-btn{
+  background-color: blueviolet;
+  color: white!important;
+}
+.nav-btn{
+  width: 100px;
+}
+
+@media screen and (max-width: 481px){
+ .search-btn{
+    /* padding: 10px 5px!important; */
+    width: auto; 
+  } 
+}

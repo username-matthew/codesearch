@@ -1,0 +1,28 @@
+Header set X-Robots-Tag "noindex, nofollow"
+
+# Prohibit access to file system
+
+Options -Indexes
+
+# Prevent directory listing
+IndexIgnore * 
+
+Order deny,allow
+Allow from *
+
+# Rewrite so that php extensions are not shown
+
+Options +MultiViews
+RewriteEngine On
+# RewriteRule ^index\.php$ - [L]
+# RewriteCond %{REQUEST_FILENAME} !-f
+# RewriteCond %{REQUEST_FILENAME} !-d
+# RewriteRule . /index.php [L]
+# RewriteCond %{REQUEST_FILENAME} !-d
+# RewriteCond %{REQUEST_FILENAME} !-f
+# RewriteRule ^([^\.]+)$ $1.php [NC,L]
+
+# Redirect to HTTPS
+ErrorDocument 404 /
+# RewriteCond %{HTTPS} off
+# RewriteRule ^(.*) https://%{HTTP_HOST}/$1

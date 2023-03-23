@@ -1,0 +1,266 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Droid + Serif"); */
+
+:root{
+  font: sans-serif;
+}
+span.const{
+  color: red;
+}
+span.let{
+  background-color: #f7f7f7;
+  color: green;
+}
+span.return{
+  color: orange;
+}
+span.consolelog{
+  color: blue;
+}
+span.comment{
+  color: #999;
+}
+span.function{
+  background-color: #333;
+  padding: 3px;
+  color: white;
+}
+span.this{
+  background-color: yellow;
+  padding: 3px;
+  color: #111;
+}
+span.classy{
+  background-color: #f88ff4;
+  padding: 3px;
+  color: black;
+}
+span.array{
+  color: cyan;
+}
+span.object{
+  color: magenta;
+}
+span.numbers{
+  color: brown;
+}
+
+/* ***************************** */
+/* ***************************** */
+/* ***************************** */
+/* ***************************** */
+
+/* HTML TAGS */
+abbr {
+	font-family: var(--font);
+	background-color: #f7f7f7;
+	color: #f11;
+	font-size: 0.9rem;
+	padding: 4px;
+	font-weight: 300;
+	line-height: 1.5rem;
+}
+article {
+	font-family: var(--font);
+	font-size: 22px;
+	font-weight: 400;
+	line-height: 1.6;
+	background: #333;
+  color: white;
+	display: inline-block;
+}
+aside,
+blockquote,
+del{
+	padding: 4px;
+}
+aside {
+	display: inline-block;
+	background-color: yellow;
+	font-size: 14px;
+	font-family: var(--font);
+	line-height: 16px;
+	letter-spacing: 1.6px;
+	color: #111;
+}
+b {
+	font-family: var(--font);
+}
+blockquote {
+	display: inline-block;
+	background-color: #111111;
+	color: #fff;
+	font-size: 16px;
+	font-family: var(--font);
+	font-weight: 300;
+	line-height: 16px;
+	letter-spacing: 1.6px;
+}
+cite {
+	font-family: var(--font);
+  font-size: 18px;
+	font-weight: 300;
+	letter-spacing: 4.8px;
+}
+code {
+  font-family: var(--font)!important;
+	position: relative;
+	z-index: 1;
+	white-space: pre-wrap;
+	/* border-bottom: 1px solid #c1e7ef; */
+	background-clip: content-box, padding-box, border-box;
+}
+del {
+	font-family: var(--font);
+	background-color: #236e25;
+	color: white;
+	text-decoration: none;
+}
+em {
+	font-family: var(--font);
+	font-size: 1.4rem;
+  line-height: 2.2rem;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+main,
+mark {
+	font-size: 18px;
+	display: inline-block;
+	padding: 10px 40px!important;
+}
+h1 {
+	background-color: #ff333311;
+	color: #ff3333;
+}
+h2 {
+	background-color: #00a86822;
+	color: #00a868;
+}
+h3 {
+	background-color: #0090ff11;
+	color: #0090ff;
+}
+h4 {
+	background-color: #f5fbc477;
+	color: #222;
+}
+h5 {
+	background-color: #a25dff11;
+	color: #a25dff;
+}
+h6 {
+	border: 1px solid #ffff00;
+	color: #ff6021;
+}
+hr {
+	border: 1px dotted red;
+}
+i {
+	font-family: var(--font);
+	letter-spacing: 0.3rem;
+	font-weight: 100;
+}
+main {
+	display: inline-block;
+	background-color: white;
+	color: #888;
+	font-style: oblique;
+	font-size: 15px;
+}
+mark {
+	background-color: #f33;
+	color: #fff;
+	font-size: 13.3px;
+	font-family: var(--font);
+	font-weight: 300;
+	line-height: 17.3px;
+	letter-spacing: 4.8px;
+}
+pre {
+  font-family: var(--font)!important;
+	white-space: pre-wrap;
+	display: inline-block;
+}
+q {
+	font-family: var(--font);
+  font-size: 18px;
+}
+s {
+	font-family: var(--font);
+  font-size: 24px;
+}
+samp {
+	color: #00aaff;
+  font-size: 18px;
+}
+section {
+	font-family: var(--font);
+	letter-spacing: 1px;
+	word-spacing: -1px;
+	line-height: 1.8rem;
+	display: inline-block;
+	padding: 0 4px;
+}
+small {
+	font-family: var(--font);
+}
+strong {
+	padding: 4px 0;
+	font-weight: 300;
+	line-height: 1.5rem;
+	font-family: var(--font);
+	color: #f33;
+}
+sub {
+	display: inline-block;
+	font-size: 18px;
+	letter-spacing: 0.1rem;
+	word-spacing: 0.1rem;
+	line-height: 1px;
+}
+sup {
+	display: inline-block;
+	font-size: 18px;
+	letter-spacing: 1rem;
+	word-spacing: 0.1rem;
+	line-height: 1rem;
+}
+u {
+	background-color: #222;
+  color: white;
+	display: inline-block;
+	font-family: var(--font);
+	text-decoration: line-through;
+	font-weight: 300;
+	letter-spacing: 1rem;
+	font-size: 24px;
+	text-decoration: line-through;
+}
+xmp {
+	background-color: yellow;
+	color: pink;
+	display: inline-block;
+}
+
+
+pre{
+  font-family: var(--font)!important;
+  width: 842px;
+  max-width: 100%;
+  /* padding: 20px; */
+}
+code{
+  padding: 20px!important;
+  padding-left: 10px!important;
+  font-family: var(--font)!important;
+  letter-spacing: 1.4!important;
+  width: 100%;
+  border-radius: 8px;
+	font-size: 1.25rem;
+	line-height: 1.78rem;
+	line-height: var(--code-blocks-line-height);
+}
